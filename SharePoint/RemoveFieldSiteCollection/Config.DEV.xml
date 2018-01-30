@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>  
+  <AutoDeployment>   
+    <SiteCollection Url="http://mysitecollection/" >    
+    </SiteCollection>
+  </AutoDeployment>
+</Config>
