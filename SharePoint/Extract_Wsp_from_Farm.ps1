@@ -4,5 +4,5 @@ if (( Get-PSSnapin -Name "Microsoft.SharePoint.Powershell" -ErrorAction Silently
 }
 
 $farm = Get-SPFarm
-$file = $farm.Solutions.Item("your_file.wsp").SolutionFile
-$file.SaveAs("c:\temp\your_file.wsp")
+$file = $farm.Solutions.Item("Pobal.PIP.ServiceHomepages.wsp").SolutionFile
+$file.SaveAs("C:\Users\tcosta\Documents\tarcisio\Pobal.PIP.ServiceHomepages.wsp")
